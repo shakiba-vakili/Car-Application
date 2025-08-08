@@ -1,5 +1,6 @@
 import { CustomButtonProps } from "@/types";
 import Image from "next/image";
+import './styles/btn.css'
 const CustomButton = ({
   title,
   containerStyles,

@@ -1,0 +1,27 @@
+.bg-primary-blue {
+  background-color: #1e40af;
+}
+
+.text-white {
+  color: white;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+.custom-btn {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  outline: none;
+}
