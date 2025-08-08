@@ -4,7 +4,7 @@ export interface CustomButtonProps {
   title: string;
   // it could be optional
   containerStyles?: string;
-  handleClick: MouseEventHandler<HTMLButtonElement>;
+  handleClick?: MouseEventHandler<HTMLButtonElement>;
 }
 
 /**
@@ -22,6 +22,4 @@ export interface CustomButtonProps {
  * - You get autocomplete for the event object
  * - TypeScript will catch mistakes if the function is used on the wrong element
  *
- * If you want this function to be optional:
- * handleClick?: MouseEventHandler<HTMLButtonElement>
  */
